@@ -12,7 +12,7 @@ A lightweight SOC reporting utility that calculates **MTTD**, **MTTR**, and **SL
 
 ## Run
 ```bash
-python dashboard.py --input data/incidents.csv --sla-minutes 60 --out outputs/dashboard.html
+python dashboard.py --input incidents.csv --output soc_metrics_dashboard.html
 ```
 
 ## Data format
