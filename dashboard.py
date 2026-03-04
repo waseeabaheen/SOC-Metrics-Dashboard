@@ -116,7 +116,7 @@ th {{ background: #f7f7f7; }}
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", default="data/incidents.csv")
+    ap.add_argument("--input", default="incidents.csv")
     ap.add_argument("--sla-minutes", type=int, default=60)
     ap.add_argument("--out", default="outputs/dashboard.html")
     args = ap.parse_args()
